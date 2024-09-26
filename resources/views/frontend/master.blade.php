@@ -56,7 +56,7 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
         <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <h1 class="sitename">RevMed</h1>
+          <h1 class="sitename">Sleepify</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -95,8 +95,8 @@
         <div class="carousel-item active">
           <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
           <div class="container">
-            <h2>Welcome to Reverse Medusa</h2>
-            <p>At Reverse Medusa, we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
+            <h2>Welcome to Sleepify</h2>
+            <p>At Sleepify, we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
         </div><!-- End Carousel Item -->
