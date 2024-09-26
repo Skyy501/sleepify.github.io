@@ -41,17 +41,6 @@
 
   <header id="header" class="header sticky-top">
 
-    <div class="topbar d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Monday - Saturday, 10AM to 8PM
-        </div>
-        <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> Call us now +62 3322 3333 1249
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
-
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
@@ -76,9 +65,6 @@
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <a class="cta-btn" href="index.html#appointment">Premium</a>
-
       </div>
 
     </div>
@@ -99,7 +85,7 @@
             <p>At Sleepify, we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End About Web Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
@@ -108,7 +94,7 @@
             <p>We aim to create a world where everyone enjoys the rejuvenating power of restful sleep. By increasing awareness and providing easy-to-follow solutions, we hope to improve the quality of life for those affected by sleep disorders.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End Our Vision Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
@@ -117,7 +103,7 @@
             <p>Our mission is simple: to improve lives by addressing sleep-related challenges. We understand that sleep disorders can severely impact your physical health, mental well-being, and overall quality of life. Whether you're experiencing insomnia, sleep apnea, or just restless nights, we are here to help. Our platform is designed to empower individuals by guiding them through every step of the journey toward better sleep.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End Our Mission Item -->
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -133,7 +119,7 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Featured Services Section -->
+    <!-- Our Tests Section -->
     <section id="featured-services" class="featured-services section">
 
       <div class="container">
@@ -146,7 +132,7 @@
               <h4><a href="" class="stretched-link">Self-Assessment Tools</a></h4>
               <p>Begin your journey by identifying potential sleep problems through our scientifically designed quizzes and symptom checkers.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
@@ -162,7 +148,7 @@
               <h4><a href="" class="stretched-link">Personalized Solutions</a></h4>
               <p>We provide tailored recommendations, including lifestyle changes, relaxation techniques, and professional treatments, all suited to your specific condition.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
@@ -170,7 +156,7 @@
               <h4><a href="" class="stretched-link">Support & Resources</a></h4>
               <p>Access a wealth of educational content, tips, and tools that promote better sleep hygiene and overall well-being.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
         </div>
 
