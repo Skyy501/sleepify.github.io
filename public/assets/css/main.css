@@ -18,45 +18,45 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+:root {
+  --background-color: #f5f5f5; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #555555; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #3fbbc0; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --accent-color: #093b5d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #f5f5f5; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #f5f5f5; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #444444;  /* The default color of the main navmenu links */
-  --nav-hover-color: #3fbbc0; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-hover-color: #093b5d; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: ##f5f5f5; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: ##f5f5f5; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #3fbbc0; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #093b5d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f7fcfc;
-  --surface-color: #ffffff;
+  --background-color: #f5f5f5;
+  --surface-color: #f5f5f5;
 }
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #f5f5f5;
+  --heading-color: #f5f5f5;
   --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --contrast-color: #f5f5f5;
 }
 
 .accent-background {
-  --background-color: #3fbbc0;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #65c9cd;
+  --background-color: #093b5d;
+  --default-color: #f5f5f5;
+  --heading-color: #f5f5f5;
+  --surface-color: #093b5d;
 }
 
 /* Smooth scroll */
@@ -93,6 +93,18 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+/* Style for the logo image */
+.logo-image {
+    width: auto; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: auto; /* Space between the image and the text */
+  }
+
+  /* Optional: Adjust the site name size */
+  .sitename {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family: var(--heading-font); /* Using the font you defined earlier */
+  }
 
 /* Pulsating Play Button
 ------------------------------*/
@@ -1042,49 +1054,6 @@ section,
   border-radius: 0px;
 }
 
-/*--------------------------------------------------------------
-# Call To Action Section
---------------------------------------------------------------*/
-.call-to-action {
-  padding: 80px 0;
-  position: relative;
-  clip-path: inset(0);
-}
-
-.call-to-action .container {
-  position: relative;
-  z-index: 3;
-}
-
-.call-to-action h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--default-color);
-}
-
-.call-to-action p {
-  color: var(--default-color);
-}
-
-.call-to-action .cta-btn {
-  font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 4px;
-  transition: 0.3s;
-  margin: 10px;
-  border: 2px solid var(--contrast-color);
-  color: var(--contrast-color);
-}
-
-.call-to-action .cta-btn:hover {
-  background: var(--contrast-color);
-  color: var(--accent-color);
-  border: 2px solid var(--accent-color);
-}
 
 /*--------------------------------------------------------------
 # About Section
@@ -1294,64 +1263,6 @@ section,
 .services .service-item:hover h3 {
   color: var(--accent-color);
 }
-
-/*--------------------------------------------------------------
-# Appointment Section
---------------------------------------------------------------*/
-.appointment .php-email-form {
-  width: 100%;
-}
-
-.appointment .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.appointment .php-email-form input,
-.appointment .php-email-form textarea,
-.appointment .php-email-form select {
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  padding: 10px !important;
-}
-
-.appointment .php-email-form input:focus,
-.appointment .php-email-form textarea:focus,
-.appointment .php-email-form select:focus {
-  border-color: var(--accent-color);
-}
-
-.appointment .php-email-form input::placeholder,
-.appointment .php-email-form textarea::placeholder,
-.appointment .php-email-form select::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.appointment .php-email-form input,
-.appointment .php-email-form select {
-  height: 44px;
-}
-
-.appointment .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.appointment .php-email-form button[type=submit] {
-  background: var(--accent-color);
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.appointment .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
-}
-
 /*--------------------------------------------------------------
 # Tabs Section
 --------------------------------------------------------------*/
@@ -1618,114 +1529,6 @@ section,
     transition: none;
   }
 }
-
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
-.pricing .pricing-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing .pricing-item h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  background: color-mix(in srgb, var(--default-color), transparent 95%);
-}
-
-.pricing .pricing-item h4 {
-  font-size: 36px;
-  font-weight: 600;
-  font-family: var(--heading-font);
-}
-
-.pricing .pricing-item h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing .pricing-item h4 span {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing .pricing-item ul {
-  padding: 15px 0;
-  list-style: none;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing .pricing-item ul li {
-  padding-bottom: 16px;
-}
-
-.pricing .pricing-item ul i {
-  color: var(--accent-color);
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing .pricing-item ul .na {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  background: color-mix(in srgb, var(--default-color), transparent 95%);
-  margin: 0 -20px -20px -20px;
-  padding: 20px 15px;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 4px;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: var(--heading-font);
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
-}
-
-.pricing .featured h3 {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.pricing .advanced {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-}
-
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/

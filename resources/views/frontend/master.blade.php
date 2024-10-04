@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+    <!doctype html>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home</title>
+  <title>Welcome to Sleepify</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -28,6 +30,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+
   <!-- =======================================================
   * Template Name: Medicio
   * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
@@ -44,8 +47,9 @@
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <h1 class="sitename">Sleepify</h1>
+        <a class="logo d-flex align-items-center me-auto">
+            <img src="assets/img/zzz.png" alt="Logo" class="logo-image">
+            <h1 class="sitename">Sleepify</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -164,23 +168,6 @@
 
     </section><!-- /Featured Services Section -->
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section accent-background">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>In an emergency? Need help now?</h3>
-              <p>We'll patch you through a hospital.</p>
-              <a class="cta-btn" href="#appointment">Call Us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
-
     <!-- About Section -->
     <section id="about" class="about section">
 
@@ -194,8 +181,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/sleeping.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
             <h3>We Provide</h3>
@@ -217,16 +203,17 @@
         </div>
 
       </div>
+      <br><br>
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <div class="container">
 
         <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features.jpg" alt=""></div>
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/sleepschedule.png" alt=""></div>
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Benefits for using Us</h3>
+            <h3>Benefits for Using Sleepify</h3>
             <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
