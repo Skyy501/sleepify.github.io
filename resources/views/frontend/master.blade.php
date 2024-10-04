@@ -213,37 +213,36 @@
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <h3>Benefits for Using Sleepify</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4><a href="" class="stretched-link">Enhanced Quality of Life</a></h4>
+                <p>By improving your sleep, you enhance your physical, emotional, and mental well-being, resulting in increased productivity, better mood, and overall health.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4><a href="" class="stretched-link">Comprehensive Self-Assessment Tools</a></h4>
+                <p>Our easy-to-use tools help you identify sleep disorders and understand potential triggers, enabling you to take the first step towards better sleep.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                <h4><a href="" class="stretched-link">Expert Guidance</a></h4>
+                <p>Sleepify connects you with sleep experts, providing professional insights and recommendations for managing sleep problems, backed by the latest research and medical advice.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="fa-solid fa-lungs flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                <h4><a href="" class="stretched-link">Holistic Approach</a></h4>
+                <p>Beyond just diagnosing, we offer lifestyle tips, stress management techniques, and behavioral changes that can improve sleep quality, providing a well-rounded approach to better rest.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -311,7 +310,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>These Testimonials are Based on User's Experience on Using Sleepify</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -348,12 +347,12 @@
               <div class="testimonial-item" "="">
             <p>
               <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                <span>Hey there, friend! If you’re tossing and turning all night, let me tell you, Sleepify is your ticket to dreamland. You’ve got sleep issues? They’ve got solutions! It’s quick, easy, and best of all—totally legal. Don’t lose another night’s sleep when you could be snoozing like a baby. Call Sleepify now, and tell ‘em Saul sent ya!</span>
                 <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h4>Lawyer &amp; Sales</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -361,12 +360,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Yo, Sleepify is the bomb, man! I used to be all messed up from sleepless nights, but now? I’m sleeping like a baby! These guys know what they’re doing. If you’re struggling with sleep, stop messing around and get on this. It’s legit, trust me!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Jesse Pinkman</h3>
+                <h4>Chemist</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -374,25 +373,25 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Sleepify. It’s not just a platform—it’s a solution. You think you know sleep? You don’t. I used to think I could push through the sleepless nights, but that was arrogance. Sleepify showed me the science, the process. They helped me take control. Sleep disorders? They’re a problem, and I solve problems. Sleepify helps you do the same. Say my name... it's Walter White, and I endorse this.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Walter White</h3>
+                <h4>High-School Chemistry Teacher</h4>
               </div>
             </div><!-- End testimonial item -->
-
+en
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Sleepify? It's a meticulously curated experience. In a world where everyone is drowning in chaos, Sleepify offers a serene escape—a refined approach to managing sleep disorders. It's not just about sleep; it’s about optimizing every aspect of your life. You owe it to yourself to indulge in the luxury of quality rest. After all, appearances matter, and a well-rested individual exudes an undeniable confidence. Invest in Sleepify. Because, in the end, it's not just sleep; it’s perfection.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Patrick Bateman</h3>
+                <h4>Investment Banker</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -400,12 +399,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>Sleepify is more than just a service; it’s a lifeline. In a city like Gotham, where the night is filled with chaos, quality sleep is essential to maintaining focus and strength. I understand the toll that sleepless nights can take—whether you're fighting crime or just trying to keep up with the demands of life. Sleepify provides the tools and guidance needed to conquer sleep disorders. After all, to protect the ones we love, we need to be at our best. Trust in Sleepify; it’s a choice I would make.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Bruce Wayne</h3>
+                <h4>World's Greatest Detective</h4>
               </div>
             </div><!-- End testimonial item -->
 
