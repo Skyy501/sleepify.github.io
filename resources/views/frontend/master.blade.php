@@ -62,7 +62,6 @@
                 <li><a href="#">Healthy Sleep Schedule Test</a></li>
                 <li><a href="#">Sleep Disorder Test</a></li>
                 <li><a href="#">Mental Health Test</a></li>
-                <li><a href="#">Depression Test</a></li>
               </ul>
             </li>
             <li><a href="#contact">Contact</a></li>
@@ -303,57 +302,8 @@
               <p>The Mental Health Test evaluates your overall mental well-being by asking questions about your mood, stress levels, energy, and emotional state. It aims to detect any potential mental health concerns such as anxiety, stress overload, or other emotional challenges that may affect your sleep or daily life. The test offers insights into your mental health status and suggests ways to maintain or improve it.</p>
             </div>
           </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-dna"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Depression Test</h3>
-              </a>
-              <p>This test screens for symptoms of depression, such as persistent sadness, lack of interest in activities, fatigue, and changes in appetite or sleep patterns. It is designed to help you understand whether you might be experiencing depressive symptoms and if professional support may be beneficial. The test results can help guide you toward appropriate mental health resources for further assistance.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-wheelchair"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>In Development</h3>
-              </a>
-              <p>This Test is being developed</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-notes-medical"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>In Development</h3>
-            </a>
-            <p>This Test is being developed</p>
-            <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
         </div>
-
       </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Appointment Section -->
-    <section id="appointment" class="appointment section light-background">
-
-
-    </section><!-- /Tabs Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
