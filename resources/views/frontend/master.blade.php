@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
+    <!doctype html>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home</title>
+  <title>Welcome to Sleepify</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -28,6 +30,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+
   <!-- =======================================================
   * Template Name: Medicio
   * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
@@ -41,44 +44,23 @@
 
   <header id="header" class="header sticky-top">
 
-    <div class="topbar d-flex align-items-center">
-      <div class="container d-flex justify-content-center justify-content-md-between">
-        <div class="d-none d-md-flex align-items-center">
-          <i class="bi bi-clock me-1"></i> Monday - Saturday, 10AM to 8PM
-        </div>
-        <div class="d-flex align-items-center">
-          <i class="bi bi-phone me-1"></i> Call us now +62 3322 3333 1249
-        </div>
-      </div>
-    </div><!-- End Top Bar -->
-
     <div class="branding d-flex align-items-center">
 
       <div class="container position-relative d-flex align-items-center justify-content-end">
-        <a href="index.html" class="logo d-flex align-items-center me-auto">
-          <h1 class="sitename">RevMed</h1>
+        <a class="logo d-flex align-items-center me-auto">
+            <img src="assets/img/zzz.png" alt="Logo" class="logo-image">
+            <h1 class="sitename">Sleepify</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Our Tests</a></li>
-            <li class="dropdown"><a href="#"><span>Tests</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Healthy Sleep Schedule Test</a></li>
-                <li><a href="#">Sleep Disorder Test</a></li>
-                <li><a href="#">Mental Health Test</a></li>
-                <li><a href="#">Depression Test</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Tests</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <a class="cta-btn" href="index.html#appointment">Premium</a>
-
       </div>
 
     </div>
@@ -95,11 +77,11 @@
         <div class="carousel-item active">
           <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
           <div class="container">
-            <h2>Welcome to Reverse Medusa</h2>
-            <p>At Reverse Medusa, we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
+            <h2>Welcome to Sleepify</h2>
+            <p>At Sleepify, we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End About Web Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
@@ -108,7 +90,7 @@
             <p>We aim to create a world where everyone enjoys the rejuvenating power of restful sleep. By increasing awareness and providing easy-to-follow solutions, we hope to improve the quality of life for those affected by sleep disorders.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End Our Vision Item -->
 
         <div class="carousel-item">
           <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
@@ -117,7 +99,7 @@
             <p>Our mission is simple: to improve lives by addressing sleep-related challenges. We understand that sleep disorders can severely impact your physical health, mental well-being, and overall quality of life. Whether you're experiencing insomnia, sleep apnea, or just restless nights, we are here to help. Our platform is designed to empower individuals by guiding them through every step of the journey toward better sleep.</p>
             <a href="#about" class="btn-get-started">Read More</a>
           </div>
-        </div><!-- End Carousel Item -->
+        </div><!-- End Our Mission Item -->
 
         <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -133,7 +115,7 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- Featured Services Section -->
+    <!-- Our Tests Section -->
     <section id="featured-services" class="featured-services section">
 
       <div class="container">
@@ -146,7 +128,7 @@
               <h4><a href="" class="stretched-link">Self-Assessment Tools</a></h4>
               <p>Begin your journey by identifying potential sleep problems through our scientifically designed quizzes and symptom checkers.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
@@ -162,7 +144,7 @@
               <h4><a href="" class="stretched-link">Personalized Solutions</a></h4>
               <p>We provide tailored recommendations, including lifestyle changes, relaxation techniques, and professional treatments, all suited to your specific condition.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
@@ -170,30 +152,13 @@
               <h4><a href="" class="stretched-link">Support & Resources</a></h4>
               <p>Access a wealth of educational content, tips, and tools that promote better sleep hygiene and overall well-being.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Our Tests Item -->
 
         </div>
 
       </div>
 
     </section><!-- /Featured Services Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section accent-background">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>In an emergency? Need help now?</h3>
-              <p>We'll patch you through a hospital.</p>
-              <a class="cta-btn" href="#appointment">Call Us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -208,8 +173,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/sleeping.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
             <h3>We Provide</h3>
@@ -231,103 +195,47 @@
         </div>
 
       </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-user-md flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Doctors</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="far fa-hospital flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Departments</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-flask flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Research Labs</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="fas fa-award flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Awards</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
+      <br><br>
     <!-- Features Section -->
     <section id="features" class="features section">
 
       <div class="container">
 
         <div class="row justify-content-around gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features.jpg" alt=""></div>
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/sleepschedule.png" alt=""></div>
 
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+            <h3>Benefits for Using Sleepify</h3>
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
               <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4><a href="" class="stretched-link">Enhanced Quality of Life</a></h4>
+                <p>By improving your sleep, you enhance your physical, emotional, and mental well-being, resulting in increased productivity, better mood, and overall health.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
               <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4><a href="" class="stretched-link">Comprehensive Self-Assessment Tools</a></h4>
+                <p>Our easy-to-use tools help you identify sleep disorders and understand potential triggers, enabling you to take the first step towards better sleep.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
               <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
-                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                <h4><a href="" class="stretched-link">Expert Guidance</a></h4>
+                <p>Sleepify connects you with sleep experts, providing professional insights and recommendations for managing sleep problems, backed by the latest research and medical advice.</p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
               <i class="fa-solid fa-lungs flex-shrink-0"></i>
               <div>
-                <h4><a href="" class="stretched-link">Tride clov</a></h4>
-                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                <h4><a href="" class="stretched-link">Holistic Approach</a></h4>
+                <p>Beyond just diagnosing, we offer lifestyle tips, stress management techniques, and behavioral changes that can improve sleep quality, providing a well-rounded approach to better rest.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -386,169 +294,8 @@
               <p>The Mental Health Test evaluates your overall mental well-being by asking questions about your mood, stress levels, energy, and emotional state. It aims to detect any potential mental health concerns such as anxiety, stress overload, or other emotional challenges that may affect your sleep or daily life. The test offers insights into your mental health status and suggests ways to maintain or improve it.</p>
             </div>
           </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-dna"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Depression Test</h3>
-              </a>
-              <p>This test screens for symptoms of depression, such as persistent sadness, lack of interest in activities, fatigue, and changes in appetite or sleep patterns. It is designed to help you understand whether you might be experiencing depressive symptoms and if professional support may be beneficial. The test results can help guide you toward appropriate mental health resources for further assistance.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-wheelchair"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>In Development</h3>
-              </a>
-              <p>This Test is being developed</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-notes-medical"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>In Development</h3>
-            </a>
-            <p>This Test is being developed</p>
-            <a href="#" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
         </div>
-
       </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Appointment Section -->
-    <section id="appointment" class="appointment section light-background">
-
-
-    </section><!-- /Tabs Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" "="">
-            <p>
-              <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
