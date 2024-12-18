@@ -14,8 +14,7 @@ use App\Http\Controllers\TemplateController;
 */
 
 // Additional route for TemplateController (if necessary)
-Route::get('/', [TemplateController::class, 'index']);
+Route::get('/', [TemplateController::class,'index']);
 // Route for displaying the form
-
 Route::get('/sleeptest', [SleepTestController::class, 'index'])->name('sleeptest.index');
 Route::post('/sleeptest', [SleepTestController::class, 'predict'])->name('sleeptest.predict');

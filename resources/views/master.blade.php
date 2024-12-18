@@ -272,179 +272,71 @@
             </div>
           </div><!-- End Service Item -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>These Testimonials are Based on User's Experience on Using Sleepify</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" "="">
-            <p>
-              <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Hey there, friend! If you’re tossing and turning all night, let me tell you, Sleepify is your ticket to dreamland. You’ve got sleep issues? They’ve got solutions! It’s quick, easy, and best of all—totally legal. Don’t lose another night’s sleep when you could be snoozing like a baby. Call Sleepify now, and tell ‘em Saul sent ya!</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Lawyer &amp; Sales</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Yo, Sleepify is the bomb, man! I used to be all messed up from sleepless nights, but now? I’m sleeping like a baby! These guys know what they’re doing. If you’re struggling with sleep, stop messing around and get on this. It’s legit, trust me!</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Jesse Pinkman</h3>
-                <h4>Chemist</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Sleepify. It’s not just a platform—it’s a solution. You think you know sleep? You don’t. I used to think I could push through the sleepless nights, but that was arrogance. Sleepify showed me the science, the process. They helped me take control. Sleep disorders? They’re a problem, and I solve problems. Sleepify helps you do the same. Say my name... it's Walter White, and I endorse this.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Walter White</h3>
-                <h4>High-School Chemistry Teacher</h4>
-              </div>
-            </div><!-- End testimonial item -->
-en
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Sleepify? It's a meticulously curated experience. In a world where everyone is drowning in chaos, Sleepify offers a serene escape—a refined approach to managing sleep disorders. It's not just about sleep; it’s about optimizing every aspect of your life. You owe it to yourself to indulge in the luxury of quality rest. After all, appearances matter, and a well-rested individual exudes an undeniable confidence. Invest in Sleepify. Because, in the end, it's not just sleep; it’s perfection.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Patrick Bateman</h3>
-                <h4>Investment Banker</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Sleepify is more than just a service; it’s a lifeline. In a city like Gotham, where the night is filled with chaos, quality sleep is essential to maintaining focus and strength. I understand the toll that sleepless nights can take—whether you're fighting crime or just trying to keep up with the demands of life. Sleepify provides the tools and guidance needed to conquer sleep disorders. After all, to protect the ones we love, we need to be at our best. Trust in Sleepify; it’s a choice I would make.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Bruce Wayne</h3>
-                <h4>World's Greatest Detective</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
-        <p>How does this test work?</p>
+        <p>See what most people are curious about!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="row justify-content-center">
-
           <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
             <div class="faq-container">
 
               <div class="faq-item">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>What is a sleeping disorder?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                    <p>A sleeping disorder refers to a condition that disrupts your normal sleep patterns. Common types include insomnia (difficulty falling or staying asleep), sleep apnea (interrupted breathing during sleep), and narcolepsy (excessive daytime sleepiness). These disorders can affect your physical and mental well-being if not addressed.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>Why is sleep important?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Sleep plays a vital role in maintaining overall health. It helps the body repair itself, supports brain function, and boosts the immune system. Lack of quality sleep can lead to various health issues, including memory problems, weakened immunity, and increased risk of chronic conditions.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>Who is this test for?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                    <p>This test is designed for individuals who suspect they may have sleep-related issues or want to assess their sleep health. It is suitable for adults and teenagers but should not replace professional medical evaluation.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>How accurate is this test?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                    <p>The test provides a preliminary assessment based on commonly recognized patterns of sleeping disorders. While it is designed to be informative, it is not a substitute for diagnosis by a healthcare professional.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>How does the test work?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                    <p>The test involves answering a series of questions related to your sleep habits, patterns, and overall health. Based on your responses, the system analyzes your risk of having a sleeping disorder and provides tailored recommendations.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>How long does the test take?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                    <p>On average, the test takes about 5 to 10 minutes to complete. The exact time may vary depending on how quickly you answer the questions.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              <div class="faq-item">
+                <h3>Can I retake the test?</h3>
+                <div class="faq-content">
+                  <p>Absolutely. You can retake the test as often as you like, especially if your sleep patterns or symptoms change over time.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
