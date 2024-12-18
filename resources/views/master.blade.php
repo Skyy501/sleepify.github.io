@@ -57,8 +57,9 @@
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Our Tests</a></li>
-            <li><a href="#">Test</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#doctors">Our Team</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
