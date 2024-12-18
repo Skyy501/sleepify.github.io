@@ -1,4 +1,4 @@
-@extends('frontend.master')
+@extends('master')
 
 @section('footer')
 

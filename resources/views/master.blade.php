@@ -54,16 +54,10 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Our Tests</a></li>
-            <li class="dropdown"><a href="#"><span>Tests</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Healthy Sleep Schedule Test</a></li>
-                <li><a href="#">Sleep Disorder Test</a></li>
-                <li><a href="#">Mental Health Test</a></li>
-              </ul>
-            </li>
+            <li><a href="#">Test</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -258,51 +252,25 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Tests</h2>
-        <p>We provide several tests to help you recognize your health</p>
+        <h2>Our Test</h2>
+        <p>We provide a test to help you recognize your sleep condition</p>
       </div><!-- End Section Title -->
 
-      <div class="container">
+      <div class="container" style="display: flex; justify-content: center; align-items: center;">
 
-        <div class="row gy-4">
+        <div class="row gy-4" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fas fa-heartbeat"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Healthy Sleep Schedule Test</h3>
-              </a>
-              <p>This test helps assess whether your sleep patterns align with a healthy sleep schedule. It asks questions about your typical sleep and wake times, the quality of your sleep, and how rested you feel throughout the day. Based on your responses, the test provides feedback on how balanced your sleep schedule is and offers suggestions for improvement if needed.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" style="margin: 0 auto;">
+            <div class="service-item position-relative" style="text-align: center; border: 1px solid #ccc; padding: 1.5rem; border-radius: 8px;">
+              <div class="icon" style="font-size: 2rem; margin-bottom: 1rem;">
                 <i class="fas fa-pills"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="sleep-test.index" class="stretched-link" style="text-decoration: none; color: inherit;">
                 <h3>Sleep Disorder Test</h3>
               </a>
               <p>This test is designed to help you identify potential signs of common sleep disorders, such as insomnia, sleep apnea, restless leg syndrome, or narcolepsy. It evaluates symptoms like difficulty falling asleep, frequent waking during the night, excessive daytime sleepiness, and snoring. The results will indicate whether you may be at risk for a sleep disorder and recommend seeking professional advice for further evaluation.</p>
             </div>
           </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fas fa-hospital-user"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>Mental Health Test</h3>
-              </a>
-              <p>The Mental Health Test evaluates your overall mental well-being by asking questions about your mood, stress levels, energy, and emotional state. It aims to detect any potential mental health concerns such as anxiety, stress overload, or other emotional challenges that may affect your sleep or daily life. The test offers insights into your mental health status and suggests ways to maintain or improve it.</p>
-            </div>
-          </div><!-- End Service Item -->
-        </div>
-      </div>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
