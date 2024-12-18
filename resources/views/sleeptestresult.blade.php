@@ -57,7 +57,7 @@
     <h1>Test Result</h1>
     <div class="result-box">
         <p class="result-text">{{ $result }}</p>
-        <a href="{{ route('sleep-test.index') }}" class="btn-custom">Take the test again</a>
+        <a href="{{ route('sleeptest.index') }}" class="btn-custom">Take the test again</a>
     </div>
 </div>
 

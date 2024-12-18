@@ -265,7 +265,7 @@
               <div class="icon" style="font-size: 2rem; margin-bottom: 1rem;">
                 <i class="fas fa-pills"></i>
               </div>
-              <a href="sleep-test.index" class="stretched-link" style="text-decoration: none; color: inherit;">
+              <a href="sleeptest" class="stretched-link" style="text-decoration: none; color: inherit;">
                 <h3>Sleep Disorder Test</h3>
               </a>
               <p>This test is designed to help you identify potential signs of common sleep disorders, such as insomnia, sleep apnea, restless leg syndrome, or narcolepsy. It evaluates symptoms like difficulty falling asleep, frequent waking during the night, excessive daytime sleepiness, and snoring. The results will indicate whether you may be at risk for a sleep disorder and recommend seeking professional advice for further evaluation.</p>

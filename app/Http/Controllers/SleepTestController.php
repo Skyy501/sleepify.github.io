@@ -9,7 +9,7 @@ class SleepTestController extends Controller
     // Show the test form
     public function index()
     {
-        return view('sleep-test');
+        return view('sleeptest');
     }
 
     // Handle the form submission and prediction
@@ -21,7 +21,7 @@ class SleepTestController extends Controller
         // Example prediction logic
         $result = $this->predictSleepDisorder($data);
 
-        return view('sleep-test-result', compact('result'));
+        return view('sleeptestresult', compact('result'));
     }
 
     // Prediction logic based on the input data

@@ -70,7 +70,7 @@
   <main class="main">
     <div class="form-container" style="background-color: #093b5d; border-radius: 8px; box-shadow: 0px 4px 10px #093b5d; padding: 40px; max-width: 600px; margin: 50px auto;">
         <h1 style="text-align: center; margin-bottom: 30px;color: white;">Sleep Disorder Test</h1>
-        <form action="{{ route('sleep-test.predict') }}" method="POST">
+        <form action="{{ route('sleeptest.predict') }}" method="POST">
             @csrf
 
             <label for="gender" style="font-weight: bold;color: white;">Gender</label><br>
