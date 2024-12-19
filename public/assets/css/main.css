@@ -1772,3 +1772,37 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+.call-to-action .cta-btn {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  transition: 0.3s;
+  margin: 10px;
+  border: 2px solid var(--contrast-color);
+  color: var(--contrast-color);
+}
+
+.call-to-action .cta-btn:hover {
+  background: var(--contrast-color);
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.contact .btn-custom {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .btn-custom:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}

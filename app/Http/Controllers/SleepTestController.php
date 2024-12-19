@@ -21,7 +21,11 @@ class SleepTestController extends Controller
         // Example prediction logic
         $result = $this->predictSleepDisorder($data);
 
-        return view('sleeptestresult', compact('result'));
+        // Unpack the messages
+        $message = $result['message'];
+        $title = $result['title'];
+
+        return view('sleeptestresult', compact('message', 'title'));
     }
 
     // Prediction logic based on the input data
@@ -98,13 +102,25 @@ class SleepTestController extends Controller
 
         // Applying the prediction logic based on score thresholds
         if ($score >= 8) {
-            return 'You may have a sleep disorder. We recommend further evaluation for Insomnia or Sleep Apnea.';
+            return [
+                'message' => 'Up to 1 in 3 adults experience symptoms of insomnia. We recommend a thorough evaluation for Insomnia or Sleep Apnea to ensure proper treatment.',
+                'title' => 'MAJOR SLEEP DISORDER FOUND'
+            ];
         } elseif ($score >= 5) {
-            return 'You may have Insomnia. It\'s advisable to consult a healthcare professional for better sleep management.';
+            return [
+                'message' => 'You may be experiencing Insomnia. Seeking advice from a healthcare professional can help you manage your sleep patterns and improve your overall health.',
+                'title' => 'SLEEP DISORDER FOUND'
+            ];
         } elseif ($score >= 3) {
-            return 'You may have mild sleep issues. Consider improving your sleep hygiene and lifestyle.';
+            return [
+                'message' => 'You might be dealing with mild sleep disturbances. Consider enhancing your sleep hygiene and making small lifestyle changes to promote better sleep quality.',
+                'title' => 'MILD SLEEPING ISSUES FOUND'
+            ];
         } else {
-            return 'No major disorder detected. However, maintaining a healthy lifestyle is important for good sleep quality.';
+            return [
+                'message' => 'No significant sleep issues detected. However, continuing to prioritize a healthy lifestyle will support good sleep and overall well-being.',
+                'title' => 'NO SLEEPING ISSUES'
+            ];
         }
     }
 }
