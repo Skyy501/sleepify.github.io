@@ -42,7 +42,32 @@
 
 <body class="index-page">
 
-  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+<header id="header" class="header sticky-top">
+
+<div class="branding d-flex align-items-center">
+
+  <div class="container position-relative d-flex align-items-center justify-content-end">
+    <a class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/zzz.png" alt="Logo" class="logo-image">
+        <h1 class="sitename">Sleepify</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Our Tests</a></li>
+        <li><a href="#doctors">Our Team</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+  </div>
+
+</div>
+
+</header>
 
   <!-- Appointment Section -->
   <section id="appointment" class="appointment section light-background">
