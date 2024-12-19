@@ -2,14 +2,14 @@
 1. Christopher Jovison - 2602170934
    - Team Page
    - Footer
-2. Levina Jane Saputra
+2. Levina Jane Saputra - 2602084836
    - Home Page
    - FAQ Page
    - Dokumentasi README
-3. Luke Mangala Soegianto
+3. Luke Mangala Soegianto - 2602090196
    - Model Prediksi Sleeping Disorder
    - Test Page
-4. Nicholas Abraham Salim
+4. Nicholas Abraham Salim - 2602175840
    - About Us Page
    
 ## SDGs
@@ -22,7 +22,7 @@ SDG yang kami ambil adalah Kesehatan yang Baik dan Kesejahteraan (3). Web kami m
 1. Home Page -> landing page yang menampilkan 3 poin informasi utama, yaitu welcoming words, visi, dan misi dari web kami. Informasi disajikan dalam bentuk slider.
 2. About Page -> menampilkan informasi lebih lanjut tentang web Sleepify, seperti cara kerja dan manfaat yang bisa didapat oleh user.
 3. Test Page -> menyediakan tes yang dapat dikerjakan oleh user untuk mendapatkan hasil prediksi kondisi sleeping disorder.
-4. FAQ Page -> meyediakan beberapa pertanyaan yang biasanya menjadi pertanyaan user, disertai dengan jawaban yang dapat menyelesaikan pertanyaan tersebut. Informasi FAQ disediakan dalam bentuk dropdown
+4. FAQ Page -> menyediakan beberapa pertanyaan yang biasanya menjadi pertanyaan user, disertai dengan jawaban yang dapat menyelesaikan pertanyaan tersebut. Informasi FAQ disediakan dalam bentuk dropdown.
 5. Team Page -> menampilkan informasi terkait tim pembuat web Sleepify.
 
 ## Fitur Utama
