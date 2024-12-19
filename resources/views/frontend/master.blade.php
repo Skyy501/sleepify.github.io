@@ -58,6 +58,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Tests</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -166,7 +167,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About Us<br></h2>
-        <p> we are dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. We know that quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
+        <p>We're dedicated to helping individuals understand and overcome sleeping disorders, one step at a time. Quality sleep is essential for a healthy life, yet many people struggle with disorders like insomnia, sleep apnea, restless leg syndrome, and others without realizing the root causes. Our mission is to guide you on a personalized journey toward better sleep.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -211,7 +212,8 @@
               <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Enhanced Quality of Life</a></h4>
-                <p>By improving your sleep, you enhance your physical, emotional, and mental well-being, resulting in increased productivity, better mood, and overall health.</p>
+                <p>By improving your sleep, it enhances your physical, emotional, and mental well-being, resulting in increased productivity, better mood, and overall health.
+</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -227,7 +229,7 @@
               <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Expert Guidance</a></h4>
-                <p>Sleepify connects you with sleep experts, providing professional insights and recommendations for managing sleep problems, backed by the latest research and medical advice.</p>
+                <p>Sleepify connects you with sleep experts, providing professional insights and recommendations for managing your sleep problems, backed by the latest research and medical advice.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -235,7 +237,7 @@
               <i class="fa-solid fa-lungs flex-shrink-0"></i>
               <div>
                 <h4><a href="" class="stretched-link">Holistic Approach</a></h4>
-                <p>Beyond just diagnosing, we offer lifestyle tips, stress management techniques, and behavioral changes that can improve sleep quality, providing a well-rounded approach to better rest.</p>
+                <p>Beyond just diagnosing, we offer lifestyle tips, stress management techniques, and behavioral changes that can improve sleep quality, providing a well-rounded approach to having a better rest.</p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -303,61 +305,66 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
-        <p>How does this test work?</p>
+        <p>See what most people are curious about!</p>
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="row justify-content-center">
-
           <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
             <div class="faq-container">
 
               <div class="faq-item">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+                <h3>What is a sleeping disorder?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>A sleeping disorder refers to a condition that disrupts your normal sleep patterns. Common types include insomnia (difficulty falling or staying asleep), sleep apnea (interrupted breathing during sleep), and narcolepsy (excessive daytime sleepiness). These disorders can affect your physical and mental well-being if not addressed.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <h3>Why is sleep important?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Sleep plays a vital role in maintaining overall health. It helps the body repair itself, supports brain function, and boosts the immune system. Lack of quality sleep can lead to various health issues, including memory problems, weakened immunity, and increased risk of chronic conditions.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <h3>Who is this test for?</h3>
                 <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>This test is designed for individuals who suspect they may have sleep-related issues or want to assess their sleep health. It is suitable for adults and teenagers but should not replace professional medical evaluation.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>How accurate is this test?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>The test provides a preliminary assessment based on commonly recognized patterns of sleeping disorders. While it is designed to be informative, it is not a substitute for diagnosis by a healthcare professional.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <h3>How does the test work?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p>The test involves answering a series of questions related to your sleep habits, patterns, and overall health. Based on your responses, the system analyzes your risk of having a sleeping disorder and provides tailored recommendations.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>How long does the test take?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  <p>On average, the test takes about 5 to 10 minutes to complete. The exact time may vary depending on how quickly you answer the questions.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3>Can I retake the test?</h3>
+                <div class="faq-content">
+                  <p>Absolutely. You can retake the test as often as you like, especially if your sleep patterns or symptoms change over time.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
