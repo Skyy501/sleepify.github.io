@@ -57,8 +57,9 @@
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Our Tests</a></li>
-            <li><a href="#">Test</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#doctors">Our Team</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -350,7 +351,78 @@
       </div>
 
     </section><!-- /Faq Section -->
-
+<!-- Doctors Section -->
+<section id="doctors" class="doctors section light-background">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Our Team</h2>
+      <p>Our dedicated team is committed to helping you understand and improve your sleep health. Meet the passionate experts who make Sleepify possible.</p>
+    </div><!-- End Section Title -->
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/doctors/doctors-1.jpeg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/christopher_w_j/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/christopher-jovison-a3b27b259/?originalSubdomain=id"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Christopher Jovison</h4>
+              <span>2602170934</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/doctors/doctors-2.jpeg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/luke-soegianto/?originalSubdomain=id"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Luke Mangala Soegianto</h4>
+              <span>2602090196</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/doctors/doctors-3.jpeg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/levina1111/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/levina-jane-189860251/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Levina Jane Saputra</h4>
+              <span>2602084836</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/doctors/doctors-4.jpeg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="https://www.instagram.com/nicholasabrahamsalim/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/nicholas-abraham-558ba732b/?originalSubdomain=id"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Nicholas Abraham Salim</h4>
+              <span>2602175840</span>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+      </div>
+    </div>
+    </section><!-- /Doctors Section -->
 @yield('footer')
 
   <!-- Scroll Top -->
