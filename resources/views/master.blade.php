@@ -61,7 +61,7 @@
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#footer">Contact</a></li>
             <li>
-                <a href="#profile" class="btn btn-primary rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                <a href="{{ url('/profile') }}" class="btn btn-primary rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
                     <i class="bi bi-person"></i>
                 </a>
             </li>
