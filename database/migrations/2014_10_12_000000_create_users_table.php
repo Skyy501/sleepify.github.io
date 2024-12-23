@@ -23,7 +23,7 @@ return new class extends Migration
             $table->timestamps();
         });
     }
-
+// In database/migrations/xxxx_xx_xx_create_users_table.php
     /**
      * Reverse the migrations.
      *
