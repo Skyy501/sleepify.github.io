@@ -60,11 +60,6 @@
             <li><a href="#doctors">Our Team</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#footer">Contact</a></li>
-            <li>
-                <a href="profile" class="btn btn-primary rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
-                    <i class="bi bi-person"></i>
-                </a>
-            </li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
