@@ -1,14 +1,18 @@
 ## Anggota dan Jobdesc
 1. Christopher Jovison - 2602170934
    - Team Page
+   - Test Result Page
    - Footer
 2. Levina Jane Saputra - 2602084836
    - Home Page
    - FAQ Page
    - Dokumentasi README
+   - Figma
 3. Luke Mangala Soegianto - 2602090196
    - Tes Prediksi Sleeping Disorder
    - Test Page
+   - Test Result Page
+   - Deploy
 4. Nicholas Abraham Salim - 2602175840
    - About Us Page
    
@@ -26,4 +30,8 @@ https://sleepify.dittyaa.my.id/
 5. Team Page -> menampilkan informasi terkait tim pembuat web Sleepify.
 
 ## Fitur Utama
-Fitur utama pada web kami adalah tes prediksi kondisi sleeping disorder. hasil tes akan mengeluarkan output prediksi berdasarkan input dari user. Input tersebut berupa jawaban dari beberapa pertanyaan yang dapat menjadi dasar kondisi sleeping disorder.
+Fitur utama pada web kami adalah tes prediksi kondisi sleeping disorder. Hasil tes akan mengeluarkan output prediksi berdasarkan input dari user. Input tersebut berupa jawaban dari beberapa pertanyaan yang dapat menjadi dasar kondisi sleeping disorder.
+
+## Link Prototype Figma
+https://www.figma.com/proto/pS1LHO63bhvZCJNlpzUKYY/Sleepify---AoL-Web-Programming?node-id=0-1&t=jm81whHg1elTb81y-1
+design : https://www.figma.com/design/pS1LHO63bhvZCJNlpzUKYY/Sleepify---AoL-Web-Programming?node-id=0-1&t=BQoSTONXN8peHIFW-1
