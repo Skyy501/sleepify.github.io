@@ -1,0 +1,12 @@
+services:
+  sleepify-luke:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sleepify-luke.image
+    container_name: sleepify-luke.container
+    restart: unless-stopped
+    ports:
+      - "6666:80"
+    env_file:
+      - .env
